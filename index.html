@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learning Website">
+    <meta name="author" content="Himanshu Chauhan">
+
+    <title>Himanshu Chauhan</title>
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <style>
+
+</style>
+
+</head>
+
+<body>
+    <div class="main-div">
+       <div class="left-div">
+            <div class="top-img">
+                <a href="#"><img src="./img/Cat-N-Dog-Logo copy.png" style="width: 194px; height: 62px;"></a>
+            </div>
+            <div class="text-1" style="width: 571px; height: 137px;">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="text-2" >
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="footlink">
+                <a href="#"><img src="./img/AppStoreBadge.png"></a>
+                <a href="#"><img src="./img/google-play-badge.png"></a>
+            </div>
+       </div>
+
+        <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+                <img src="./img/Group.png" style="width:100%">
+                <div class="temp">
+                <a href="#"><img src="./img/Facebook.png"></a>
+                <a href="#"><img src="./img/Instagram.png"></a>
+                <a href="#"><img src="./img/Twitter.png"></a>
+                <a href="#"><img src="./img/Linkedin.png"></a>
+                </div>
+                <div class="topnav">
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="text-3">
+                    <p>Type Text</p>
+                </div>
+                <div class="text-4">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="./img/Background.png" style="width:100%">
+              <div class="temp">
+                <a href="#"><img src="./img/Facebook.png"></a>
+                <a href="#"><img src="./img/Instagram.png"></a>
+                <a href="#"><img src="./img/Twitter.png"></a>
+                <a href="#"><img src="./img/Linkedin.png"></a>
+                </div>
+                <div class="topnav">
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="text-3">
+                    <p>Type Text</p>
+                </div>
+                <div class="text-4">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+          
+            
+          </div>
+          
+    </div> 
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          
+          slides[slideIndex-1].style.display = "block";  
+          
+          setTimeout(showSlides, 4000); 
+        }
+        </script>
+</body>
+
+</html>
